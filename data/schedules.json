@@ -1,0 +1,11 @@
+{
+  "test_schedule": {
+    "name": "test_schedule",
+    "cron": "0 0 * * * *",
+    "task": "Test task",
+    "enabled": true,
+    "created_at": "2026-03-12T21:52:57.952568",
+    "last_run": "2026-03-12T21:52:57.952800",
+    "run_count": 1
+  }
+}

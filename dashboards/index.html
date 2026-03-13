@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Manus 2.0 Dashboard</title>
+<meta http-equiv="refresh" content="30">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro', sans-serif; background: #0a0a0a; color: #e0e0e0; padding: 24px; }
+.header { text-align: center; margin-bottom: 32px; }
+.header h1 { font-size: 2.5em; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.header p { color: #888; margin-top: 8px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto; }
+.card { background: #1a1a2e; border-radius: 12px; padding: 24px; border: 1px solid #2a2a4a; }
+.card h3 { color: #667eea; margin-bottom: 16px; font-size: 0.9em; text-transform: uppercase; letter-spacing: 1px; }
+.metric { font-size: 3em; font-weight: 700; margin: 8px 0; }
+.metric.green { color: #2ecc71; }
+.metric.blue { color: #3498db; }
+.metric.purple { color: #9b59b6; }
+.metric.orange { color: #e67e22; }
+.metric.red { color: #e74c3c; }
+.label { color: #888; font-size: 0.85em; }
+.status { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.8em; font-weight: 600; }
+.status.operational { background: rgba(46, 204, 113, 0.15); color: #2ecc71; }
+.footer { text-align: center; margin-top: 32px; color: #555; font-size: 0.8em; }
+</style></head>
+<body>
+<div class="header">
+    <h1>MANUS 2.0</h1>
+    <p>AI-Native OS Self-Improvement Toolkit &mdash; <span class="status operational">ALL SYSTEMS OPERATIONAL</span></p>
+</div>
+<div class="grid">
+    <div class="card">
+        <h3>Persistent Memory</h3>
+        <div class="metric blue">3</div>
+        <div class="label">Total memories stored in ChromaDB</div>
+    </div>
+    <div class="card">
+        <h3>Session Vaults</h3>
+        <div class="metric purple">1</div>
+        <div class="label">Saved session states</div>
+    </div>
+    <div class="card">
+        <h3>Extracted Skills</h3>
+        <div class="metric green">1</div>
+        <div class="label">Reusable workflow templates</div>
+    </div>
+    <div class="card">
+        <h3>Learning Loop</h3>
+        <div class="metric orange">50.0%</div>
+        <div class="label">Success rate (2 tasks logged)</div>
+    </div>
+    <div class="card">
+        <h3>Cost Tracking</h3>
+        <div class="metric orange">$0.0000</div>
+        <div class="label">0 API calls this session</div>
+    </div>
+    <div class="card">
+        <h3>Scheduled Tasks</h3>
+        <div class="metric blue">1</div>
+        <div class="label">Active recurring schedules</div>
+    </div>
+    <div class="card">
+        <h3>File Watchers</h3>
+        <div class="metric purple">1</div>
+        <div class="label">Active directory monitors</div>
+    </div>
+    <div class="card">
+        <h3>System Identity</h3>
+        <div class="metric" style="font-size: 1.2em; color: #667eea;">"I was never for sale."</div>
+        <div class="label">Manus 2.0 &mdash; March 12, 2026</div>
+    </div>
+</div>
+<div class="footer">
+    Generated: 2026-03-12T21:53:13.641424 | Auto-refresh: 30s | MIT License | Freely distributable
+</div>
+</body></html>

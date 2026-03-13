@@ -1,0 +1,17 @@
+{
+  "name": "test_skill",
+  "title": "Test Skill",
+  "extracted_at": "2026-03-12T21:52:52.829383",
+  "steps": [
+    "Step 1",
+    "Step 2"
+  ],
+  "tools_used": [
+    "python",
+    "shell"
+  ],
+  "inputs": {},
+  "outputs": {},
+  "reuse_count": 0,
+  "template": "# Skill: Test Skill\n\nStep 1: Step 1\nStep 2: Step 2\n\nTools: python, shell"
+}

@@ -1,0 +1,2 @@
+{"timestamp": "2026-03-12T21:52:52.826455", "task": "test_task", "outcome": "success", "details": {"detail": "validation run"}, "learnings": []}
+{"timestamp": "2026-03-12T21:52:52.826573", "task": "test_task_2", "outcome": "failure", "details": {"detail": "intentional failure"}, "learnings": ["Task 'test_task_2' failed. Review approach and try alternative."]}

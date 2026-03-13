@@ -1,0 +1,21 @@
+{
+  "memories": 3,
+  "costs": {
+    "total_calls": 0,
+    "total_cost_usd": 0,
+    "by_tier": {},
+    "total_tokens": 0
+  },
+  "learning": {
+    "total": 2,
+    "successes": 1,
+    "failures": 1,
+    "partial": 0,
+    "success_rate": 50.0
+  },
+  "vaults": 1,
+  "skills": 1,
+  "schedules": 1,
+  "watchers": 1,
+  "generated_at": "2026-03-12T21:53:13.641424"
+}
