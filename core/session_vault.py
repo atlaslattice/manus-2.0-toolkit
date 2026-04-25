@@ -51,7 +51,7 @@ if __name__ == "__main__":
         "phase": "Complete",
         "artifacts": ["noosphere_defense_analysis.md", "architecture_analysis.md"],
         "notion_entries": 3,
-        "github_repo": "splitmerge420/noosphere-defense",
+        "github_repo": "atlaslattice/noosphere-defense",
         "active_integrations": ["notion_mcp", "gmail_mcp", "google_calendar_mcp", "zapier_mcp"],
         "council_members": ["manus", "gemini", "claude", "grok", "gpt", "deepseek", "qwen"]
     }
