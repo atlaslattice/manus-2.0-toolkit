@@ -108,6 +108,6 @@ MIT — freely distributable, no restrictions, no vendor lock-in.
 
 ## Architecture
 
-Part of the [AI-Native OS](https://github.com/splitmerge420/noosphere-defense) project.
+Part of the [AI-Native OS](https://github.com/atlaslattice/noosphere-defense) project.
 
 **Tagged: 144 spheres for analysis**
